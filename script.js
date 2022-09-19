@@ -85,5 +85,7 @@ function update() {
 setInterval(increaseSpeed, 1000);
 
 function increaseSpeed() {
-    params.speed += 2;
+    params.speed += 5;
+    params.count += 200;
+    params.life += 1;
 }
