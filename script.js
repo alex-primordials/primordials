@@ -6,7 +6,7 @@ var screen, starArr;
 var params = { 
     speed: 10, 
     count: 400, 
-    life: 20
+    life: 1000
 };
 
 setup();
