@@ -6,7 +6,7 @@ var screen, starArr;
 var params = { 
     speed: 10, 
     count: 400, 
-    life: 5
+    life: 20
 };
 
 setup();
@@ -85,7 +85,5 @@ function update() {
 setInterval(increaseSpeed, 1000);
 
 function increaseSpeed() {
-    params.speed += 5;
     params.count += 200;
-    params.life += 1;
 }
